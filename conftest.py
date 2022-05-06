@@ -2,6 +2,7 @@ import pytest
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 
 
 def pytest_addoption(parser):
